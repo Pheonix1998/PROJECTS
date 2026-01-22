@@ -3,24 +3,11 @@ Projects related to ETL process with visuaizations
 
 ![Data Pipeline Architecture](Data%20Pipeline%20Architecture.jpg)
 
-> **
 1. Database → Data Warehouse:
 
-Data is collected from databases (raw, daily data).
+Data is collected from databases (raw, daily data).It goes through a pipeline where it is cleaned and transformed. The cleaned data is loaded into a data warehouse. Analysts use it to create reports, dashboards, and business insights.
 
-It goes through a pipeline where it is cleaned and transformed.
-
-The cleaned data is loaded into a data warehouse.
-
-Analysts use it to create reports, dashboards, and business insights.
-
-2. Data Warehouse → Database/App (Optional):
-
-Sometimes, data from the warehouse is extracted to a smaller database or data mart.
-
-This is used for specific apps, dashboards, or machine learning models.
-
-It helps teams access focused, ready-to-use data without touching the whole warehouse. **
+2. Data Warehouse → Database/App (Optional): Sometimes, data from the warehouse is extracted to a smaller database or data mart. This is used for specific apps, dashboards, or machine learning models. It helps teams access focused, ready-to-use data without touching the whole warehouse.
 
 ### 📁 Files Used for Project
 
