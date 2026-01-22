@@ -3,7 +3,8 @@ Projects related to ETL process with visuaizations
 
 ![Data Pipeline Architecture](Data%20Pipeline%20Architecture.jpg)
 
-> ** 1. Database → Data Warehouse:
+> **
+1. Database → Data Warehouse:
 
 Data is collected from databases (raw, daily data).
 
