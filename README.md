@@ -1,6 +1,6 @@
 # PROJECTS
 Projects related to ETL process with visuaizations
 
-![Data Pipeline Architecture](assets/Data Pipeline Architecture.jpg)
+![Data Pipeline Architecture](Data%20Pipeline%20Architecture.jpg)
 
-**End-to-end data pipeline architecture illustrating how raw data is extracted, transformed, loaded into a data warehouse, and visualized to support business decision-making.**
+> **High-level data pipeline architecture demonstrating how raw data is extracted, transformed, and loaded into a data warehouse to enable analytics and informed business decision-making.**
