@@ -15,8 +15,8 @@ st.markdown("Live analytics dashboard using CSV data source (Cloud Deployable)."
 # ==========================================
 @st.cache_data(ttl=600)
 def load_data():
-    df_bat = pd.read_csv("match_batting_stats.csv")
-    df_bowl = pd.read_csv("match_bowling_stats.csv")
+    df_bat = pd.read_csv(r"E:\Labmentix Internship\CRICBUZZ_PROJECT\match_batting_stats.csv")
+    df_bowl = pd.read_csv(r"E:\Labmentix Internship\CRICBUZZ_PROJECT\match_bowling_stats.csv")
 
     # Convert to numeric safely
     bat_num_cols = ['runs', 'balls', 'fours', 'sixes']

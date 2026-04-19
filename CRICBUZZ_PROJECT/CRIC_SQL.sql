@@ -62,7 +62,7 @@ ORDER BY Max_Runs DESC;
 -- Q8: List all bowlers who bowled a maiden over.
 SELECT DISTINCT([name])
 FROM [dbo].[match_bowling_stats]
-WHERE [maidens] <> 0;
+WHERE [maidens] = 0;
 
 -- Q9: Players who scored 10+ runs AND took 1+ wicket (All-rounders).
 SELECT DISTINCT
